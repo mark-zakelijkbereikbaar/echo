@@ -16,5 +16,4 @@ export interface PresenceChannel {
      * Listen for someone leaving the channel.
      */
     leaving(callback: Function): PresenceChannel;
-
 }

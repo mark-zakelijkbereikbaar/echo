@@ -33,20 +33,4 @@ export class SocketIoPresenceChannel extends SocketIoPrivateChannel implements P
 
         return this;
     }
-
-    setLocation(location: string): SocketIoPresenceChannel { //TO ANY[]
-        this.socket.emit('location', {
-            channel: this.name,
-            data: location
-        });
-        return this;
-    }
-
-    locations(callback: Function): SocketIoPresenceChannel {
-        this.on('location', (members: any[]) => {
-            callback(members.map((m) => m.user_info));
-        });
-        return this;
-    }
-
 }

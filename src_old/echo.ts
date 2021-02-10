@@ -19,8 +19,6 @@ export default class Echo {
      * Create a new class instance.
      */
     constructor(options: any) {
-        console.log('===LARAVEL ECHO SERVER NEXT VERSION===');
-
         this.options = options;
         this.connect();
 
