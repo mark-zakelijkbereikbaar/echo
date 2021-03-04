@@ -1,4 +1,4 @@
-<p align="center">Gekoloniseerd door ZB</p>
+<p align="center">ZB FORK</p>
 
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-echo.svg"></p>
 
